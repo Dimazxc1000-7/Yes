@@ -27,7 +27,9 @@ def pon(cursor):
     '''
     result = cursor.execute(command)
     users = result.fetchall()
-    print(users)
+    print(users[0])
+    print(users[1])
+    print(users[2])
 
 if __name__ == '__main__':
     with sqlite3.connect('base.bd') as cursor:

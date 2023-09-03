@@ -1,0 +1,18 @@
+h1 {
+background: red
+}
+
+
+.paragraf1 {
+    background: yellow;
+    font-size: 20pt;
+    color: green;
+}
+
+.paragraf2 {
+    border: 10px solid green;
+    font-size: 24pt;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+    padding-left: 20px
+}
